@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Disabled_Methods__c</fullName>
+    <description>Provide Method names in a comma separated values, which we want to Disable</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Provide Method names in a comma separated values, which we want to Disable</inlineHelpText>
+    <label>Disabled Methods</label>
+    <required>false</required>
+    <type>TextArea</type>
+</CustomField>

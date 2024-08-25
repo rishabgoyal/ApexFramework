@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Sample Trigger CustomPermissions</label>
+    <protected>false</protected>
+    <values>
+        <field>Disabled_Events__c</field>
+        <value xsi:type="xsd:string">AFTER_INSERT</value>
+    </values>
+    <values>
+        <field>Disabled_Methods__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Is_Enabled__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>Permission_Name__c</field>
+        <value xsi:type="xsd:string">Disable_Log_Insert</value>
+    </values>
+    <values>
+        <field>Trigger_Configurations__c</field>
+        <value xsi:type="xsd:string">SampleTrigger</value>
+    </values>
+    <values>
+        <field>Type__c</field>
+        <value xsi:type="xsd:string">Custom Permission</value>
+    </values>
+</CustomMetadata>
